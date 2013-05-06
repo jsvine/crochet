@@ -1,6 +1,6 @@
 ### Crochet
 
-Hook into and/or monkeypatch any Ruby class- or instance-method. Provides `before` and `after` hooks, plus their destructive evil twins.
+Crochet is a Ruby library for easily hooking into any class- or instance-method. It provides `before` and `after` hooks, plus their destructive evil twins.
 
 To install via RubyGems: `gem install crochet`
 
@@ -14,7 +14,7 @@ The `Crochet` module contains only one class, `Hook`. Instantiate `Crochet::Hook
 file_hook = Crochet::Hook.new(File)
 ```
 
-### `before` and `after`
+## `before` and `after`
 
 Crochet hooks have two non-destructive methods — `before` and `after`.
 
