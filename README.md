@@ -72,7 +72,7 @@ Crochet hooks also have two destructive methods, which can be useful for monkeyp
 
 A couple trivial examples:
 
-``ruby
+```ruby
 Crochet::Hook.new(File) do
 	before! :mtime, :class do |filename|
 		[ File.expand_path "~/.bashrc" ]
